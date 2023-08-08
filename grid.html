@@ -36,11 +36,6 @@
         padding: 10px;
     }
     
-    .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Два столбца равной ширины */
-    grid-gap: 10px; /* Промежуток между элементами */
-}
 
 .content-1, .content-2, .content-3 {
     padding: 10px;
@@ -79,6 +74,11 @@
             background-color: brown;
             grid-area: footer;
         }
+        .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Два столбца равной ширины */
+    grid-gap: 10px; /* Промежуток между элементами */
+}
     }
     </style>
 </head>
