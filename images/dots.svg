@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <pattern id="doodad" width="22" height="22" viewBox="0 0 22 22" patternUnits="userSpaceOnUse">
+    <circle cx="8" cy="8" r="3" fill="#F3F0EA"/>
+  </pattern>
+  <rect fill="url(#doodad)" height="100%" width="100%"/>
+</svg>
