@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adaptive Grid</title>
+    <title>Responsive Grid</title>
     <style>
     .container {
         display: grid;
@@ -67,33 +67,14 @@
         text-align: center;
         padding: 5px;
     }
+    .body {
+        min-width: 30%;
+        max-width: 100%;
+        min-height: auto;
+        max-height: max-content;
+    }
 
-    @media screen and (min-width:400px) and (max-width: 600px){
-        .footer {
-            display: none;
-            background-color: brown;
-            grid-area: footer;
-        }
-    }
-        .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    }
-    @media screen and (max-width: 399px)
-    {
-        .footer {
-            display: none;
-        }
-        .main {
-            height: 30vh;
-        }
-        .header {
-            height: 30vh;
-        }
-        .sidebar {
-            height: 30vh;
-        }
-    }
+
     </style>
 </head>
 <body>
