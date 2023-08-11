@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid</title>
+    <title>Adaptive Grid</title>
     <style>
     .container {
         display: grid;
@@ -74,28 +74,12 @@
             background-color: brown;
             grid-area: footer;
         }
+    }
         .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Два столбца равной ширины */
-    grid-gap: 10px; /* Промежуток между элементами */
-}
+    grid-template-columns: repeat(2, 1fr); 
     }
-    @media screen and (max-width: 399px)
-    {
-        .footer {
-            display: none;
-        }
-        .main {
-            height: 30vh;
-        }
-        .header {
-            height: 30vh;
-        }
-        .sidebar {
-            height: 30vh;
-        }
-    }
-        
+ 
     
     </style>
 </head>
